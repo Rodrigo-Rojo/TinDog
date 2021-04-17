@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+line-height: 1.5;
+
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 3.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%
+}
+
+.lodogo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  margin-left: auto;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'montserrat-light'
+}
+
+.img-dog {
+  position: absolute;
+  transform: rotate(25deg);
+}
+
+@media (max-width:1028px) {
+  .img-dog {
+    position: static;
+    transform: none;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Title Seccion */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  text-align: left;
+}
+
+/* Download Bottom */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Seccion */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.pfeatures {
+  color: #8f8f8f;
+}
+
+.feature-row {
+  margin-bottom: 8rem;
+}
+
+.feature-icon {
+  margin-top: 8rem;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Seccion */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  position: relative;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 1rem;
+}
+
+/* Press Seccion */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.neto {
+  width: 10%;
+  border-radius: 20%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Seccion */
+#pricing {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.pricing-card {
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 3% 15%;
+  color: #fff;
+  position: relative;
+}
+
+.cta-h3 {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  padding: 4%;
+  position: relative;
+}
+
+.ficon {
+  margin: 1%;
+  color: black;
+}
+
+.copy {
+  margin: 1%;
+}
